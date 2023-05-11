@@ -1,0 +1,65 @@
+ <DOCTYPE html>
+<html lang="eng">
+<meta name="viewport"
+ content="width=device-width", initial-scale="/0">
+ <head> 
+  <title> practice </title>
+  <link rel="stylesheet" href="style.css"
+ </head>
+  <body>
+   <div class="logo">CONCARE</div>
+   <div class="home"> 
+    <a href="home" target="_blank";>Home</div>
+    <div class="about us">
+     <a href="about us" target="_blank"> About Us </a></div>
+     <div class="report a problem">  
+     <a href="report a problem" target="_blank">Report a Problem</a>
+   <div class="form-box">
+  	<style>
+		form {
+			padding: 20px;
+			border: 1px solid #ccc;
+			background-color: brown;
+			linear-gradient:to top left,green, blue;
+			box-shadow: 0 2px 5px black;
+		}
+	</style>
+	
+    <form>
+  <style>
+  	 label {
+	         background-color:#CB2C2C;
+	         box-shadow: 0 1px 3px black;
+	         left:;
+	 } </style> <input type="text" placeholder="Example17"> 
+	 <Label id="name">User Name 
+     </label>
+     <br><br>
+     <input type="number" placeholder="You must be 18 and above.">
+     <label id="age"> Age </label> 
+     <br><br>
+     <input type="email"    placeholder="example@gmail.com" name="newinput" required>
+     <label id="email"> Email      
+     <br><br>
+     <input type="password" id="password">
+     <label for="password">Password</label>
+  <style>
+   button {
+       ;
+   }</style>
+     <button type="button" onclick="togglePasswordVisibility()">👁️</button>
+
+<script>
+function togglePasswordVisibility() {
+  var passwordInput = document.getElementById("password");
+  if (passwordInput.type === "password") {
+    passwordInput.type = "text";
+  } else {
+    passwordInput.type = "password";
+  }
+}
+</script>
+     <br><br>
+       </form>
+       <input type="submit" value="submit">
+  </body>
